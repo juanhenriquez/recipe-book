@@ -1,0 +1,24 @@
+<md-card class="row">
+  <img md-card-image src="{{ recipe?.imagePath }}">
+  <md-card-content>
+    <div class="row">
+      <div class="col s12 m6">
+        <md-card-title>{{ recipe?.name }}</md-card-title>
+        <p>{{ recipe?.description }}</p>
+      </div>
+      <div class="col s12 m6">
+        <md-list dense>
+          <h3 md-subheader>Ingredientes</h3>
+          <md-list-item>Harina de trigo</md-list-item>
+          <md-list-item>Harina de trigo</md-list-item>
+          <md-list-item>Harina de trigo</md-list-item>
+        </md-list>
+      </div>
+    </div>
+  </md-card-content>
+  <md-card-actions>
+    <button md-raised-button md-button color="primary" class="waves-effect waver-light">To shopping list</button>
+    <button md-raised-button md-button color="accent" class="update-color waves-effect waver-light">Edit</button>
+    <button md-raised-button md-button color="warn" class="waves-effect waver-light">Delete</button>
+   </md-card-actions>
+</md-card>
