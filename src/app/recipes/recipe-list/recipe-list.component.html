@@ -5,7 +5,7 @@
     </div>
     <div class="col s12">
       <md-list>
-        <rb-recipe-item [recipe]="recipe"></rb-recipe-item>
+        <rb-recipe-item [recipe]="recipe" (click)="onSelectedRecipe(recipe)"></rb-recipe-item>
       </md-list>
     </div>
   </div>
